@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+$font-stack: 'Roboto', sans-serif;
+
+
+/**
+  @ Navbar
+ */
+.header-navbar{
+  height: 45px;
+}
+
+.header-navbar-list li a {
+  font-family: $font-stack;
+  font-size: 0.8rem;
+  font-weight: 400 ;
+}
+.header-navbar-light li a {
+  font-family: $font-stack;
+  font-size: 1.0rem;
+  font-weight: 400 ;
+}
+
+.title-name{
+  font-family: $font-stack;
+   font-size: 1.8rem;
+   font-weight: bold ;
+}
+
+/**
+  Bootstrap Carousel
+ */
+
+@mixin carousel-control(){
+  width: 30px;
+  height: 60px;
+  line-height: 60px;
+  position: absolute;
+  top: 50%;
+  z-index: 999;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  background: rgba(0, 0, 0, 0.36);
+  -webkit-box-shadow: 0px 0px 0px 3px rgba(255, 255, 255, 0.2);
+  box-shadow: 0px 0px 0px 2px rgba(255, 255, 255, 0.2);
+}
+
+
+
+.carousel-item > img{
+  height: 700px;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+.carousel-control-prev {
+  left: 10px;
+  @include carousel-control;
+}
+
+.carousel-control-next {
+  @include carousel-control;
+  right: 10px;
+}
+
+/**
+  @Carousel button
+ */
+.btn-lg {
+  cursor: pointer;
+  padding: 12px 60px 15px 35px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+.btn-theme:hover {
+  background: #e1a006;
+  border: solid 1px #e1a006;
+}
+
+
+.btn-theme {
+  background: #ffb400;
+  border: solid 1px#ffb400;
+}
+
+.btn-theme {
+  background: #ffb400;
+  border: solid 1px#ffb400;
+}
+
+.btn-round {
+  border-radius: 30px;
+}
+
+.btn-theme {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.banner-max >.btn-lg {
+  margin: 8px;
+}
+
+.btn-white-lg-outline {
+  color: #FFF;
+  background: transparent;
+  border: solid 2px #FFF;
+  cursor: pointer;
+  padding: 11px 35px 10px 35px;
+  letter-spacing: 1px;
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.btn-white-lg-outline:hover {
+  color: #FFF;
+  background: #ffb400;
+  border: solid 2px#ffb400;
+}
+
+.carousel-caption{
+   position: absolute;
+   top: 40%;
+   left: 0;
+   right: 0;
+}
