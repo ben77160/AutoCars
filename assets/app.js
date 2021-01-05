@@ -8,6 +8,7 @@ import React from 'react'
 import ReactDOM from "react-dom"
 import Nav from "./components/Nav";
 import Carousel from "./components/Carousel";
+import SearchBar from "./components/SearchBar";
 import HomePage from "./pages/HomePage";
 
 // any CSS you import will output into a single css file (app.css in this case)
@@ -21,6 +22,7 @@ ReactDOM.render(
      <React.StrictMode>
          <Nav/>
          <Carousel/>
+         <SearchBar/>
          <HomePage/>
      </React.StrictMode>,
     document.getElementById('app')

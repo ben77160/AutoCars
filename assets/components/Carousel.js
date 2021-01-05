@@ -22,8 +22,8 @@ const Carousel = () => {
                                      <h2>First slide label</h2>
                                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                       <div className="banner-max">
-                                          <a href="" className="btn btn-lg btn-round btn-theme">Get Started Now</a>
-                                          <a href="" className="btn btn-round btn-white-lg-outline">Learn more</a>
+                                          <a href="" className="btn btn-lg btn-round btn-theme">Commencez maintenant</a>
+                                          <a href="" className="btn btn-round btn-white-lg-outline">En savoir plus</a>
                                       </div>
                                  </div>
                          </div>
@@ -33,8 +33,8 @@ const Carousel = () => {
                                      <h2>First slide label</h2>
                                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                      <div className="banner-max">
-                                         <a href="" className="btn btn-lg btn-round btn-theme">Get Started Now</a>
-                                         <a href="" className="btn btn-round btn-white-lg-outline">Learn more</a>
+                                         <a href="" className="btn btn-lg btn-round btn-theme">Commencez maintenant</a>
+                                         <a href="" className="btn btn-round btn-white-lg-outline">En savoir plus</a>
                                      </div>
                                  </div>
                          </div>
@@ -44,8 +44,8 @@ const Carousel = () => {
                                      <h2>First slide label</h2>
                                      <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
                                      <div className="banner-max">
-                                         <a href="" className="btn btn-lg btn-round btn-theme">Get Started Now</a>
-                                         <a href="" className="btn btn-round btn-white-lg-outline">Learn more</a>
+                                         <a href="" className="btn btn-lg btn-round btn-theme">Commencez maintenant</a>
+                                         <a href="" className="btn btn-round btn-white-lg-outline">En savoir plus</a>
                                      </div>
                                  </div>
                          </div>
